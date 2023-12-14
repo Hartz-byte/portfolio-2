@@ -1,12 +1,56 @@
-import React from 'react'
-import "./Sidebar.css"
+import React from "react";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div>
-      Sidebar
-    </div>
-  )
-}
+    <aside className="aside">
+      <a href="#home" className="nav--logo">
+        <h2>HG.</h2>
+      </a>
 
-export default Sidebar
+      <nav className="nav">
+        <div className="nav__menu">
+          <ul className="nav__list">
+            <li className="nam__item">
+              <a href="#home" className="nav__link">
+                <i className="icon-home"></i>
+              </a>
+            </li>
+
+            <li className="nam__item">
+              <a href="#about" className="nav__link">
+                <i className="icon-user-following"></i>
+              </a>
+            </li>
+
+            <li className="nam__item">
+              <a href="#services" className="nav__link">
+                <i className="icon-briefcase"></i>
+              </a>
+            </li>
+
+            <li className="nam__item">
+              <a href="#resume" className="nav__link">
+                <i className="icon-graduation"></i>
+              </a>
+            </li>
+
+            <li className="nam__item">
+              <a href="#portfolio" className="nav__link">
+                <i className="icon-layers"></i>
+              </a>
+            </li>
+
+            <li className="nam__item">
+              <a href="#contact" className="nav__link">
+                <i className="icon-bubble"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+  );
+};
+
+export default Sidebar;
