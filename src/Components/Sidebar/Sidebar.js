@@ -49,6 +49,10 @@ const Sidebar = () => {
           </ul>
         </div>
       </nav>
+
+      <div className="nav">
+        <span className="copyright">&copy; 2023 - death. </span>
+      </div>
     </aside>
   );
 };
