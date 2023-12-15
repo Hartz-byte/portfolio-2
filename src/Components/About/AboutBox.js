@@ -26,7 +26,7 @@ const AboutBox = () => {
 
         <div>
           <h3 className="about__title">10+</h3>
-          <span className="about__subtitle">Satisfied clients</span>
+          <span className="about__subtitle">Gigs Completed</span>
         </div>
       </div>
     </div>
