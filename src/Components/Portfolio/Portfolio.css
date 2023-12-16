@@ -78,6 +78,22 @@
   opacity: 1;
 }
 
+.work__desc {
+  color: #fff;
+  font-size: smaller;
+  margin: 0 0 0.98rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 6.5rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work__card:hover .work__desc {
+  opacity: 1;
+}
+
 .work__button {
   color: #fff;
   position: absolute;

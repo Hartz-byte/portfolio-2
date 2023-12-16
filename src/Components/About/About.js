@@ -3,18 +3,18 @@ import "./About.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
 
-const resumeFile = "http://localhost:3000/resume.pdf";
+// const resumeFile = "http://localhost:3000/harsh_gupta_resume.pdf";
 
 const About = () => {
-  const downloadFile = (url) => {
-    const fileName = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", fileName);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
+  // const downloadFile = (url) => {
+  //   const fileName = url.split("/").pop();
+  //   const aTag = document.createElement("a");
+  //   aTag.href = url;
+  //   aTag.setAttribute("download", fileName);
+  //   document.body.appendChild(aTag);
+  //   aTag.click();
+  //   aTag.remove();
+  // };
 
   return (
     <section className="about container section" id="about">
@@ -26,10 +26,11 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Harsh Gupta, web developer. I have experience in web design,
-              building and customizing functions. Also I'm good in Football.
+              I am Harsh Gupta, React developer. I have experience in web
+              design, building and customizing functions. Following the new
+              technologies. And I'm also good in Football.
             </p>
-            <a
+            {/* <a
               href=""
               className="btn"
               onClick={() => {
@@ -37,7 +38,7 @@ const About = () => {
               }}
             >
               Download Resume
-            </a>
+            </a> */}
           </div>
 
           <div className="about__skills grid">

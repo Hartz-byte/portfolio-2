@@ -25,8 +25,9 @@
 }
 
 .about__description {
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   text-align: justify;
+  margin-top: 2.7rem;
 }
 
 .about__skills {
