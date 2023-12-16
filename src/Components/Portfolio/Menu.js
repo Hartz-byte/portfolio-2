@@ -16,7 +16,7 @@ const Menu = [
   {
     id: 4,
     image: Work6,
-    title: "Music player app",
+    title: "Music player website",
     category: "React Web",
     link: "https://github.com/Hartz-byte/music-player-React",
   },
@@ -37,7 +37,7 @@ const Menu = [
   {
     id: 6,
     image: Work6,
-    title: "Live Weather App",
+    title: "Live Weather website",
     category: "React Web",
     link: "https://github.com/Hartz-byte/live-weather-React",
   },
@@ -51,7 +51,7 @@ const Menu = [
   {
     id: 7,
     image: Work6,
-    title: "Movie Search",
+    title: "Movie Search website",
     category: "React Web",
     link: "https://github.com/Hartz-byte/movie-search-React",
   },
