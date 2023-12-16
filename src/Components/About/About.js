@@ -3,7 +3,19 @@ import "./About.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
 
+const resumeFile = "http://localhost:3000/resume.pdf";
+
 const About = () => {
+  const downloadFile = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -17,8 +29,14 @@ const About = () => {
               I am Harsh Gupta, web developer. I have experience in web design,
               building and customizing functions. Also I'm good in Football.
             </p>
-            <a href="" className="btn">
-              Download CV
+            <a
+              href=""
+              className="btn"
+              onClick={() => {
+                downloadFile(resumeFile);
+              }}
+            >
+              Download Resume
             </a>
           </div>
 
