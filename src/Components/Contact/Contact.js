@@ -1,7 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5p092mf",
+        "template_35awd0a",
+        form.current,
+        "1Ie7I0yCe4UeafZrX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+          e.target.reset();
+          alert("Mail Sent!!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="contact container section" id="contact">
       <h2 className="section__title">Get In Touch</h2>
@@ -12,13 +38,19 @@ const Contact = () => {
           <p className="contact__details">Send me a mail. </p>
         </div>
 
-        <form action="" className="contact__form">
+        <form
+          action=""
+          ref={form}
+          onSubmit={sendEmail}
+          className="contact__form"
+        >
           <div className="contact__form-group">
             <div className="contact__form-div">
               <input
                 type="text"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                name="to_name"
               />
             </div>
 
@@ -27,6 +59,7 @@ const Contact = () => {
                 type="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                name="from_name"
               />
             </div>
           </div>
@@ -36,6 +69,7 @@ const Contact = () => {
               type="text"
               className="contact__form-input"
               placeholder="Insert your subject"
+              name="message"
             />
           </div>
 
@@ -50,7 +84,9 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <button className="btn">Send Message</button>
+          <button type="submit" value="send" className="btn">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
