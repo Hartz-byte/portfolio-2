@@ -4,6 +4,22 @@ import Work6 from "../../assets/work-6.svg";
 const Menu = [
   {
     id: 1,
+    image: Work6,
+    title: "E-commerce website",
+    category: "React Web",
+    desc: "Functionality of the cart system, api work, adding/removing products, and a unique design",
+    link: "https://github.com/Hartz-byte/multi-shopping-react",
+  },
+  {
+    id: 2,
+    image: Work3,
+    title: "E-commerce app",
+    category: "React Native",
+    desc: "Functionality of liking, bookmarks, product's more options with sharing and reporting.",
+    link: "https://github.com/Hartz-byte/app-design-native",
+  },
+  {
+    id: 3,
     image: Work3,
     title: "E-commerce app",
     category: "React Native",
@@ -17,14 +33,6 @@ const Menu = [
     category: "React Web",
     desc: "Log-in to your spotify account, to play your own library.",
     link: "https://github.com/Hartz-byte/music-player-React",
-  },
-  {
-    id: 2,
-    image: Work3,
-    title: "E-commerce app",
-    category: "React Native",
-    desc: "Functionality of liking, bookmarks, product's more options with sharing and reporting.",
-    link: "https://github.com/Hartz-byte/app-design-native",
   },
   {
     id: 5,
@@ -43,7 +51,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/live-weather-React",
   },
   {
-    id: 3,
+    id: 7,
     image: Work3,
     title: "Job finder app",
     category: "React Native",
@@ -51,7 +59,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/job-finder-Native",
   },
   {
-    id: 7,
+    id: 8,
     image: Work6,
     title: "Movie Search website",
     category: "React Web",
@@ -59,7 +67,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/movie-search-React",
   },
   {
-    id: 8,
+    id: 9,
     image: Work6,
     title: "Meme generator",
     category: "React Web",
