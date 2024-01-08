@@ -20,19 +20,19 @@ const Menu = [
   },
   {
     id: 3,
-    image: Work3,
-    title: "E-commerce app",
-    category: "React Native",
-    desc: "Functionality of liking, adding to favorites, and the cart system logic.",
-    link: "https://github.com/Hartz-byte/shop-application-native",
-  },
-  {
-    id: 4,
     image: Work6,
     title: "Music player website",
     category: "React Web",
     desc: "Log-in to your spotify account, to play your own library.",
     link: "https://github.com/Hartz-byte/music-player-React",
+  },
+  {
+    id: 4,
+    image: Work3,
+    title: "Weather Forcast App",
+    category: "React Native",
+    desc: "Get the current and upcoming days Weather Forcast of any searched city.",
+    link: "https://github.com/Hartz-byte/weather-forcast-Native",
   },
   {
     id: 5,
@@ -44,6 +44,14 @@ const Menu = [
   },
   {
     id: 6,
+    image: Work3,
+    title: "E-commerce app",
+    category: "React Native",
+    desc: "Functionality of liking, adding to favorites, and the cart system logic.",
+    link: "https://github.com/Hartz-byte/shop-application-native",
+  },
+  {
+    id: 7,
     image: Work6,
     title: "Live Weather website",
     category: "React Web",
@@ -51,7 +59,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/live-weather-React",
   },
   {
-    id: 7,
+    id: 8,
     image: Work3,
     title: "Job finder app",
     category: "React Native",
@@ -59,7 +67,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/job-finder-Native",
   },
   {
-    id: 8,
+    id: 9,
     image: Work6,
     title: "Movie Search website",
     category: "React Web",
@@ -67,7 +75,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/movie-search-React",
   },
   {
-    id: 9,
+    id: 10,
     image: Work6,
     title: "Meme generator",
     category: "React Web",
