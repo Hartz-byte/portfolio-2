@@ -45,7 +45,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Functioning</h3>
-                <span className="skills_number">80%</span>
+                <span className="skills_number">90%</span>
               </div>
 
               <div className="skills__bar">

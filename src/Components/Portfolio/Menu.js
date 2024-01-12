@@ -8,7 +8,7 @@ const Menu = [
     title: "E-commerce website",
     category: "React Web",
     desc: "Functionality of the cart system, api work, adding/removing products, and a unique design",
-    link: "https://github.com/Hartz-byte/multi-shopping-react",
+    link: "https://multi-shopping-react.vercel.app/",
   },
   {
     id: 2,
@@ -21,10 +21,10 @@ const Menu = [
   {
     id: 3,
     image: Work6,
-    title: "Music player website",
+    title: "Draft.js Editor",
     category: "React Web",
-    desc: "Log-in to your spotify account, to play your own library.",
-    link: "https://github.com/Hartz-byte/music-player-React",
+    desc: "Rich text editing, custom styling for bold, heading, red-colored, and underlined text",
+    link: "https://demo-editor-nine.vercel.app/",
   },
   {
     id: 4,
@@ -37,10 +37,10 @@ const Menu = [
   {
     id: 5,
     image: Work6,
-    title: "To-do list",
+    title: "Music player website",
     category: "React Web",
-    desc: "Functionality of adding, removing or updating your to-do list. Stores data locally.",
-    link: "https://github.com/Hartz-byte/to-do-list-React",
+    desc: "Log-in to your spotify account, to play your own library.",
+    link: "https://github.com/Hartz-byte/music-player-React",
   },
   {
     id: 6,
@@ -53,10 +53,10 @@ const Menu = [
   {
     id: 7,
     image: Work6,
-    title: "Live Weather website",
+    title: "To-do list",
     category: "React Web",
-    desc: "Check the live weather of any city in the world.",
-    link: "https://github.com/Hartz-byte/live-weather-React",
+    desc: "Functionality of adding, removing or updating your to-do list. Stores data locally.",
+    link: "https://to-do-list-react-silk.vercel.app/",
   },
   {
     id: 8,
@@ -69,13 +69,21 @@ const Menu = [
   {
     id: 9,
     image: Work6,
+    title: "Live Weather website",
+    category: "React Web",
+    desc: "Check the live weather of any city in the world.",
+    link: "https://live-weather-react.vercel.app/",
+  },
+  {
+    id: 10,
+    image: Work6,
     title: "Movie Search website",
     category: "React Web",
     desc: "Search any movies/tv shows, related to the searched word.",
     link: "https://github.com/Hartz-byte/movie-search-React",
   },
   {
-    id: 10,
+    id: 11,
     image: Work6,
     title: "Meme generator",
     category: "React Web",
