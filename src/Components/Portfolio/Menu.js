@@ -5,13 +5,21 @@ const Menu = [
   {
     id: 1,
     image: Work6,
+    title: "threeJS Product View",
+    category: "React Web",
+    desc: "Using 3D shirt model, you can customize the model by choosing any color, upload any image to apply on the product.",
+    link: "https://threejs-product-view.vercel.app/",
+  },
+  {
+    id: 2,
+    image: Work6,
     title: "E-commerce website",
     category: "React Web",
     desc: "Functionality of the cart system, api work, adding/removing products, and a unique design",
     link: "https://multi-shopping-react.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: Work3,
     title: "E-commerce app",
     category: "React Native",
@@ -19,7 +27,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/app-design-native",
   },
   {
-    id: 3,
+    id: 4,
     image: Work6,
     title: "Draft.js Editor",
     category: "React Web",
@@ -27,7 +35,7 @@ const Menu = [
     link: "https://demo-editor-nine.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: Work3,
     title: "Weather Forcast App",
     category: "React Native",
@@ -35,7 +43,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/weather-forcast-Native",
   },
   {
-    id: 5,
+    id: 6,
     image: Work6,
     title: "Music player website",
     category: "React Web",
@@ -43,7 +51,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/music-player-React",
   },
   {
-    id: 6,
+    id: 7,
     image: Work3,
     title: "E-commerce app",
     category: "React Native",
@@ -51,7 +59,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/shop-application-native",
   },
   {
-    id: 7,
+    id: 8,
     image: Work6,
     title: "To-do list",
     category: "React Web",
@@ -59,7 +67,7 @@ const Menu = [
     link: "https://to-do-list-react-silk.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: Work3,
     title: "Job finder app",
     category: "React Native",
@@ -67,7 +75,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/job-finder-Native",
   },
   {
-    id: 9,
+    id: 10,
     image: Work6,
     title: "Live Weather website",
     category: "React Web",
@@ -75,7 +83,7 @@ const Menu = [
     link: "https://live-weather-react.vercel.app/",
   },
   {
-    id: 10,
+    id: 11,
     image: Work6,
     title: "Movie Search website",
     category: "React Web",
@@ -83,7 +91,7 @@ const Menu = [
     link: "https://github.com/Hartz-byte/movie-search-React",
   },
   {
-    id: 11,
+    id: 12,
     image: Work6,
     title: "Meme generator",
     category: "React Web",
